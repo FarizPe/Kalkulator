@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 if ((angka_pertama.getText().length()>0) && (angka_kedua.getText().length()>0)){
                     double angka1 = Double.parseDouble(angka_pertama.getText().toString());
                     double angka2 = Double.parseDouble(angka_kedua.getText().toString());
-                    double result = 0;
+                    double result = angka1 + angka2;
                     hasil.setText(Double.toString(result));
                 }
                 else {
